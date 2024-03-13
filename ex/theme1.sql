@@ -1,4 +1,4 @@
-USE stud_db;
+USE stud_dbd;
 
 SELECT * FROM companies;
 SELECT NAME FROM companies;
