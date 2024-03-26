@@ -1,23 +1,23 @@
-# class Student():
-#     def __init__(self, age, name):
-#         self.age = age
-#         self.name = name
+class Student():
+    def __init__(self, age, name):
+        self.age = age
+        self.name = name
 
-#     def sleep(self):
-#         print(f'{self.name} спит')
+    def sleep(self):
+        print(f'{self.name} спит')
 
 
-# student1 = Student(20, 'Алексей')
-# print(student1.age)
-# student1.sleep()
-# print(id(student1))
+student1 = Student(20, 'Алексей')
+print(student1.age)
+student1.sleep()
+print(id(student1))
 
-# print('\n')
+print('\n')
 
-# student2 = Student(23, 'Мария')
-# print(student2.age)
-# student2.sleep()
-# print(id(student2))
+student2 = Student(23, 'Мария')
+print(student2.age)
+student2.sleep()
+print(id(student2))
 
 import random
 
