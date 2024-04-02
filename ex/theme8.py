@@ -67,7 +67,7 @@ class Student(Person):
 
 class Teacher(Person):
     def oscarb(self, student):
-        print(f'{student.name} придёшь ко мне после пары 💕')
+        print(f'{student.name} придёшь ко мне после пары')
     
     def kick(self):
         ''' Скажет что ты отчислен '''
